@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0F172A;
+  color: #F8FAFC;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Remove default Next.js styles */
+:root {
+  color-scheme: dark;
+}

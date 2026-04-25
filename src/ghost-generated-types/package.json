@@ -1,0 +1,10 @@
+{
+  "name": "ghost-standalone",
+  "version": "0.0.0-unspecified",
+  "main": "ghost-standalone.mjs",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

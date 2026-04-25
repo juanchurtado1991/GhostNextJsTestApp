@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencias
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+build/
+
+# archivos generados y de cache
+.tsbuildinfo
+.eslintcache
+*.log
+*.txt
+
+# directorios de entorno e ide
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# variables de entorno (NUNCA SUBIR)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Turborepo (si decides usar un monorepo más adelante)
+.turbo
+
+# LLM / Agentes (Ignorar historiales de Aider o similares)
+.aider*
+.aider.chat.history.md
